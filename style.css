@@ -7,20 +7,19 @@
 .header 
 {
     width: 100%;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0;
 }
 
 .nav 
 {
     width: 95%;
-    max-width: 1366px;
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
 }
 
 .logo, .menu, .button 
@@ -40,6 +39,7 @@
 {
     width: 200px;
     height: 60px;
+    gap: 20px;
 }
 .menu 
 {
@@ -54,17 +54,16 @@
 .main 
 {
     width: 100%;
+    height: 680px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    height: 680px;
     background: #F1F1F1;
 }
 .nhanh 
 {
     width: 95%;
-    max-width: 1366px;
+    max-width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,6 +76,7 @@
     align-items: center;
     background: #E2E2E2;
     border-radius: 8px;
+    height: 350px;
     font-weight: 700;
     font-family: 'Be Vietnam Pro';
     font-weight: 700;
@@ -100,7 +100,6 @@
     justify-content: center;
     align-items: center;
     padding-top: 80px;
-    padding-bottom: 40px;
 }
 
 .sec1-1 
@@ -114,7 +113,7 @@
 .title 
 {
     width: 100%;
-    height: 70px;
+    height: 80px;
     border-radius: 8px;
     background: #E2E2E2;
     font-family: 'Lora';
@@ -129,20 +128,22 @@
 .sec2 
 {
     width: 100%;
+    height: 990px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0;
 }
 
 .sec2-1 
 {
     width: 95%;
-    max-width: 1366px;
+    max-width: 1200px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
+    margin-top: -120px;
 }
 
 .item1 
@@ -170,7 +171,6 @@
     background: #F1F1F1;
     gap: 40px;
 }
-
 .titl, .titl-1 
 {
     width: 95%;
@@ -197,7 +197,7 @@
 .sec3-1 
 {
     width: 95%;
-    max-width: 1366px;
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     gap: 30px;
@@ -223,11 +223,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: -40px;
+    gap: 40px;
 }
-
 .sec4-1 {
     width: 95%;
-    max-width: 1366px;
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -248,16 +249,15 @@
 }
 .footer {
     width: 100%;
+    height: 72px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #E2E2E2;
 }
-
 .f1 {
     width: 95%;
-    max-width: 1366px;
-    height: 72px;
+    max-width: 1200px;
     border-radius: 8px;
     display: flex;
     justify-content: center;
